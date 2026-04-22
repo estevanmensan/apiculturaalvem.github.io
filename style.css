@@ -1,3 +1,59 @@
-body {
-    background-color: red  ;
+*{ /* Seleciona todos os elementos da página*/
+    margin: 0; /*remove o espaçamento externo padrão */
+    padding: 0; /*remove o espaçamento INTERNO padrão*/
+    box-sizing: 0; /*largura e altura incluem padding+borda*/
+}
+
+body { /* configura corpo da página */
+    font-family: Arial, sans-serif; /*define a fonte do site inteiro*/
+    /*Arial é fonte principal. Se não existir a Sans-serif substitui*/
+    background-color: #f5f5f5; /*cor do fundo de pagina*/
+}
+
+
+head { /* configura o cabeçalho */
+    background-color: #f4b400; /* cor do fundo do cabeçalho*/
+    color: white; /* cor do texto*/
+    text-align: center; /* centraliza o texto */
+    padding: 20px; /* cria espaço interno (respiração visual)*/
+}
+
+header {
+    background-color: #f4b400; /* cor do fundo do cabeçalho*/
+    color: white; /* cor do texto*/
+    text-align: center; /* centraliza o texto */
+    padding: 20px; /* cria espaço interno (respiração visual)*/
+}
+
+nav { /* configura o menu */
+    background-color: #333; 
+    padding: 10px;
+} 
+nav ul { /* estiliza as fontes */
+    list-style: none; 
+    display: flex;
+    justify-content: center;
+}
+nav a { /*configura os links*/
+    color: white;
+    text-decoration: none;
+    margin: 15px;
+}
+nav a:hover { /* cria efeito ao passar o mouse */
+    color: #f4b400;
+}
+
+section { /*configura a seção principal*/
+    padding: 20px;
+    text-align: center;
+}
+
+footer { /*configura o rodapé*/
+    background-color: #333;
+    color:white;
+    text-align: center;
+    padding: 15px;
+    position: fixed;
+    bottom: 0;
+    width: 100%
 }
