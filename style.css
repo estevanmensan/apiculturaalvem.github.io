@@ -76,7 +76,18 @@ footer { /*configura o rodapé*/
     padding: 20px;
     text-align: center;
     border-radius: 10px;
+    box-shadow: 10px 10px 10px black;
 }
+
+.card2 {
+    background-color: #ffcb3b;
+    width: 250px;
+    padding: 20px;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: #333;
+}
+
 
 .card h2 {
     margin-bottom: 10px;
@@ -84,4 +95,9 @@ footer { /*configura o rodapé*/
 
 .card p {
     font-size: 14;
+}
+
+img {
+    width: 300px;
+    height: auto;
 }
